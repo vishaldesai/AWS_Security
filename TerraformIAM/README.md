@@ -192,7 +192,7 @@ Command outputs:<br>
         id:                <computed>
         groups.#:          "1"
         groups.1863523578: "Group1"
-        name:              "_DXCApiAuthorization-policy-attachment"
+        name:              "_ApiAuthorization-policy-attachment"
         policy_arn:        "arn:aws:iam::084009911244:policy/_ApiAuthorization"
 
 
@@ -218,7 +218,7 @@ Command outputs:<br>
   aws_iam_policy_attachment._ApiAuthorization-policy-attachment: Creating...
     groups.#:          "" => "1"
     groups.1863523578: "" => "Group1"
-    name:              "" => "_DXCApiAuthorization-policy-attachment"
+    name:              "" => "_ApiAuthorization-policy-attachment"
     policy_arn:        "" => "arn:aws:iam::084009911244:policy/_ApiAuthorization"
   aws_iam_group.Group2: Creation complete after 0s (ID: Group2)
   aws_iam_policy_attachment._APIGatewayDescribeStacks-policy-attachment: Creating...
@@ -226,7 +226,7 @@ Command outputs:<br>
     groups.4128918848: "" => "Group2"
     name:              "" => "_APIGatewayDescribeStacks-policy-attachment"
     policy_arn:        "" => "arn:aws:iam::084009911244:policy/_APIGatewayDescribeStacks"
-  aws_iam_policy_attachment._ApiAuthorization-policy-attachment: Creation complete after 1s (ID: _DXCApiAuthorization-policy-attachment)
+  aws_iam_policy_attachment._ApiAuthorization-policy-attachment: Creation complete after 1s (ID: _ApiAuthorization-policy-attachment)
   aws_iam_policy_attachment._APIGatewayDescribeStacks-policy-attachment: Creation complete after 1s (ID: _APIGatewayDescribeStacks-policy-attachment)
 
   Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
