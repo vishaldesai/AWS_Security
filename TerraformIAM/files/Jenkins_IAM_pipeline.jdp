@@ -1,0 +1,43 @@
+node {
+    try {
+    notifyStarted()
+    // Mark the code checkout 'Checkout'....
+    stage 'Checkout'
+        git url: 'git@github.com:vishaldesai/AWS_Security.git'
+        bat 'echo vishal'
+    stage name: 'Plan', concurrency: 1 
+
+        bat '''
+        terraform version
+        cd TerraformIAM\\files\\Policies
+        terraform init
+        terraform plan --out plan
+        '''
+        
+
+    stage name: 'Deploy', concurrency: 1 
+        bat '''
+        cd TerraformIAM\\files\\Policies
+        terraform apply plan
+        '''
+    notifySuccessful()
+    
+    } catch (e) {
+    currentBuild.result = "FAILED"
+    notifyFailed()
+    throw e
+  }
+}
+
+def notifyStarted() {
+  // send to Slack
+  slackSend (color: '#FFFF00', message: "STARTED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+}
+
+def notifySuccessful() {
+  slackSend (color: '#00FF00', message: "SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+}
+
+def notifyFailed() {
+  slackSend (color: '#FF0000', message: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+}
