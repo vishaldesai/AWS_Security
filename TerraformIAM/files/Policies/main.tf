@@ -8,6 +8,8 @@ terraform {
 
 provider "aws" {
    region = "${var.aws_region}"
+   shared_credentials_file = "~/.aws/credentials"
+   profile                 = "default"
 }
 
 resource "aws_iam_policy" "_ApiAuthorization" {
