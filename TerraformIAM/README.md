@@ -4,15 +4,19 @@
 ## Prerequisites
 ----------------
 
+&nbsp;&nbsp;&nbsp;&nbsp;1. Jenkins PATH variable configuration, plugin install, webhooks, git and slack integration
+
+
 ## Security As A Code and CI/CD pipeline
 
 ![SaaC and CI/CD](images/SaaC_CICD.png)
 
-## Folder/File Structure
+## Terraform Folder/File Structure
 
-![Folder/File Structure](images/TerraformIAM_diagram.png)
+![Terraform Folder/File Structure](images/TerraformIAM_diagram.png)
 
 ## Reverse engineer existing resources in terraform CloudFormation
+------------------------------------------------------------------
 
 Use following github to reverse engineer existing resources.  
 https://github.com/dtan4/terraforming  
@@ -40,10 +44,11 @@ How to run?
 
 ## Jenkins CI/CD pipeline code example
 --------------------------------------
-
+  
 &nbsp;&nbsp;&nbsp;&nbsp;TerraformIAM/files/Jenkins_IAM_pipeline.jdp
-
-Command outputs (Terraform only):<br>
+  
+## Command outputs (Terraform only):<br>
+----------------------------------------
   ````
   C:\Policies>terraform init
 
