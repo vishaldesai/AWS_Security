@@ -38,7 +38,7 @@ resource "aws_iam_policy" "_ApiAuthorization" {
 POLICY
 }
 
-/*
+
 
 resource "aws_iam_policy" "_APIGatewayDescribeStacks" {
     name        = "_APIGatewayDescribeStacks"
@@ -62,5 +62,5 @@ resource "aws_iam_policy" "_APIGatewayDescribeStacks" {
 POLICY
 }
 
-*/
+
 
