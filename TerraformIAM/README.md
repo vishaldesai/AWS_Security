@@ -1,4 +1,4 @@
-# Create IAM policies, Groups and Users using Terraform
+# AWS IAM Security as a Code and Jenkins for CI/CD
 -------------------------------------------------------
 
 Example below demonstrates end to end flow of how to manage Security as a Code using Terraform for IAM and use CI/CD pipeline to automate, integrate, deploy and notify using Jenkins pipeline and Slack.
