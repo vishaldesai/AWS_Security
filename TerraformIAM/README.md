@@ -8,6 +8,8 @@ Example below demonstrates end to end flow of how to manage Security as a Code u
 
 &nbsp;&nbsp;&nbsp;&nbsp;1. Jenkins PATH variable configuration, plugin install, webhooks, git and slack integration
 
+### Diagrams
+------------
 
 ## Security As A Code and CI/CD pipeline
 
@@ -382,3 +384,10 @@ How to run?
 
   Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
   ````
+
+### Useful Links
+----------------
+https://objectpartners.com/2016/06/01/automating-terraform-projects-with-jenkins/
+http://acalustra.com/using-jenkins-pipelines-to-deploy-terraform.html
+https://objectpartners.com/2016/06/01/automating-terraform-projects-with-jenkins/
+https://www.datapipe.com/blog/2017/03/30/cicd-pipelines-as-code/
