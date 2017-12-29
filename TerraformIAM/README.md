@@ -4,6 +4,10 @@
 ## Prerequisites
 ----------------
 
+## Security As A Code and CI/CD pipeline
+
+![SaaC and CI/CD](images/images/SaaC_CICD.png)
+
 ## Folder/File Structure
 
 ![Folder/File Structure](images/TerraformIAM_diagram.png)
