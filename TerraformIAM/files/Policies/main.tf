@@ -1,10 +1,14 @@
+
 terraform {
   backend "s3" {
     bucket = "terraform-up-and-running-state-vishal"
     region = "us-east-1"
     key    = "IAM Policies/terraform.tfstate"
+    shared_credentials_file = "C:/Users/Administrator/.aws/credentials"
+    profile = "default"
   }
 }
+
 
 provider "aws" {
    region = "${var.aws_region}"
