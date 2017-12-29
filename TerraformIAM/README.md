@@ -38,7 +38,12 @@ How to run?
 &nbsp;&nbsp;&nbsp;&nbsp;terraform plan  
 &nbsp;&nbsp;&nbsp;&nbsp;terraform apply  
 
-Command outputs:<br>
+## Jenkins CI/CD pipeline code example
+--------------------------------------
+
+&nbsp;&nbsp;&nbsp;&nbsp;TerraformIAM/files/Jenkins_IAM_pipeline.jdp
+
+Command outputs (Terraform only):<br>
   ````
   C:\Policies>terraform init
 
