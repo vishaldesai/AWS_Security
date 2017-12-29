@@ -387,7 +387,8 @@ How to run?
 
 ### Useful Links
 ----------------
-https://objectpartners.com/2016/06/01/automating-terraform-projects-with-jenkins/
-http://acalustra.com/using-jenkins-pipelines-to-deploy-terraform.html
-https://objectpartners.com/2016/06/01/automating-terraform-projects-with-jenkins/
-https://www.datapipe.com/blog/2017/03/30/cicd-pipelines-as-code/
+  
+https://objectpartners.com/2016/06/01/automating-terraform-projects-with-jenkins/ . 
+http://acalustra.com/using-jenkins-pipelines-to-deploy-terraform.html . 
+https://objectpartners.com/2016/06/01/automating-terraform-projects-with-jenkins/ . 
+https://www.datapipe.com/blog/2017/03/30/cicd-pipelines-as-code/ . 
