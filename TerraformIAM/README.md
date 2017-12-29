@@ -6,7 +6,7 @@
 
 ## Security As A Code and CI/CD pipeline
 
-![SaaC and CI/CD](images/images/SaaC_CICD.png)
+![SaaC and CI/CD](images/SaaC_CICD.png)
 
 ## Folder/File Structure
 
